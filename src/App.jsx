@@ -67,7 +67,7 @@ function App() {
             <Route path="/payment-status" element={<PaymentStatus2 />} />
             <Route path="/payment-status-re" element={<PaymentStatus2 />} />
             <Route path="/documents" element={<DocumentsPage />} />
-            <Route path="/certificates" element={<CertificatePage />} />
+            {/* <Route path="/certificates" element={<CertificatePage />} /> */}
             <Route path="/id-card" element={<IdCardPage />} />
             <Route path="/notice" element={<NoticePage />} />
 

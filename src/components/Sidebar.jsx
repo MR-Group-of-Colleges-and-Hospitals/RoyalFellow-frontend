@@ -36,11 +36,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
       icon: <FaFileAlt className="text-lg" />,
       label: "Documents",
     },
-    {
-      to: "/certificates",
-      icon: <MdOutlineWork className="text-lg" />,
-      label: "Certificates",
-    },
+   
     {
       to: "/id-card",
       icon: <FaIdBadge className="text-lg" />,
